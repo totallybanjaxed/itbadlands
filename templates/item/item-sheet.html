@@ -1,0 +1,121 @@
+<form
+    class="{{cssClass}} item-sheet"
+    autocomplete="off">
+    <header class="sheet-header">
+        <img
+            class="profile-img"
+            src="{{item.img}}"
+            data-edit="img"
+            title="{{item.name}}"/>
+        <div class="header-fields">
+            <h1 class="charname"><input
+                name="name"
+                type="text"
+                value="{{item.name}}"
+                placeholder="Name"/></h1>
+            <div class="grid grid-2col">
+                <div class="resource flex-group-center">
+                    <label class="resource-label">Bulky</label>
+                    <input
+                        class="checkbox-block"
+                        type="checkbox"
+                        {{checked
+                        data.data.bulky}}
+                        name="data.bulky"
+                        value="{{data.data.bulky}}"
+                        data-dtype="Boolean"/>
+                </div>
+                <div class="resource flex-group-center">
+                    <label class="resource-label">Equipped</label>
+                    <input
+                        class="checkbox-block"
+                        type="checkbox"
+                        {{checked
+                        data.data.equipped}}
+                        name="data.equipped"
+                        value="{{data.data.equipped}}"
+                        data-dtype="Boolean"/>
+                </div>
+            </div>
+            <div class="grid grid-2col">
+              <div class="resource flex-group-center">
+                  <label class="resource-label">Blast</label>
+                  <input
+                      class="checkbox-block"
+                      type="checkbox"
+                      {{checked
+                      data.data.blast}}
+                      name="data.blast"
+                      value="{{data.data.blast}}"
+                      data-dtype="Boolean"/>
+              </div>
+
+              <div class="resource flex-group-center">
+                  <label class="resource-label">Slots</label>
+                  <input
+                      type="text"
+                      name="data.slots"
+                      value="{{data.data.slots}}"
+                      placeholder=0
+                      data-dtype="Number"/>
+              </div>
+            </div>
+          </div>
+        </div>
+    </header>
+
+    <div class="grid grid-4col">
+        <div class="resource flex-group-center">
+            <label class="resource-label">Quantity</label>
+            <input
+                type="text"
+                name="data.quantity"
+                value="{{data.data.quantity}}"
+                data-dtype="Number"/>
+        </div>
+        <div class="resource flex-group-center">
+            <label class="resource-label"># of Uses</label>
+            <input
+                type="text"
+                name="data.numberOfUses"
+                value="{{data.data.numberOfUses}}"
+                data-dtype="Number"/>
+        </div>
+        <div class="resource flex-group-center">
+            <label class="resource-label">Armor</label>
+            <input
+                type="text"
+                name="data.armor"
+                value="{{data.data.armor}}"
+                data-dtype="Number"/>
+        </div>
+        <div class="resource flex-group-center">
+            <label class="resource-label">Damage</label>
+            <input
+                type="text"
+                name="data.damageFormula"
+                value="{{data.data.damageFormula}}"/>
+        </div>
+    </div>
+
+    <div class="resource flex-group-center">
+        <label class="resource-label" style="text-align: center">Critical Damage</label>
+        <input
+            type="text"
+            name="data.criticalDamage"
+            value="{{data.data.criticalDamage}}"
+            data-dtype="String"/>
+    </div>
+
+    <div class="sheet-tabs-container">
+        <nav
+            class="sheet-tabs tabs"
+            data-group="primary">
+            <span
+                class="item"
+                data-tab="description">Description</span>
+        </nav>
+    </div>
+
+    {{editor content=data.data.description target="data.description" button=true owner=owner editable=editable}}
+</form>

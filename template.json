@@ -1,0 +1,75 @@
+{
+    "Actor": {
+        "types": [
+            "character", "npc", "container"
+        ],
+        "templates": {
+            "actorBase": {
+                "hp": {
+                    "value": 0,
+                    "max": 0
+                },
+                "abilities": {
+                    "STR": {
+                        "value": 0,
+                        "max": 0
+                    },
+                    "REF": {
+                        "value": 0,
+                        "max": 0
+                    },
+                    "CHA": {
+                        "value": 0,
+                        "max": 0
+                    }
+                }
+            }
+        },
+        "character": {
+            "templates": ["base", "actorBase"],
+            "background": "",
+            "biography": "",
+            "deprived": false,
+            "dollars": 0
+        },
+
+        "npc": {
+            "templates": ["base", "actorBase"],
+            "description": "",
+            "armor": 0
+        },
+
+        "container": {
+            "templates": ["base"],
+            "description": "",
+            "slots": 0
+        }
+    },
+    "Item": {
+        "types": [
+            "item",
+            "weapon"
+        ],
+        "templates": {
+            "universal": {
+                "description": "",
+                "quantity": 1,
+                "equipped": false,
+                "slots": 1
+            }
+        },
+        "item": {
+            "templates": ["base", "universal"],
+            "armor": 0,
+            "damageFormula": "",
+            "equipped": false,
+            "numberOfUses": 0
+        },
+        "weapon": {
+            "templates": ["base", "universal"],
+            "damageFormula": "",
+            "bulky": false,
+            "blast": false
+        }
+    }
+}
