@@ -56,6 +56,6 @@
     "primaryTokenAttribute": "hp",
     "license": "",
     "manifest": "https://raw.githubusercontent.com/totallybanjaxed/itbadlands/main/system.json",
-    "download": "https://github.com/totallybanjaxed/itbadlands/archive/refs/tags/0.0.2.zip",
+    "download": "https://github.com/totallybanjaxed/itbadlands/archive/refs/tags/v0.0.2.zip",
     "url": ""
 }
