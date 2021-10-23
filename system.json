@@ -2,7 +2,7 @@
     "name": "itbadlands",
     "title": "Into The Badlands",
     "description": "Into The Badlands for FoundryVTT",
-    "version": "0.0.6",
+    "version": "0.0.7",
     "minimumCoreVersion": "0.8.6",
     "compatibleCoreVersion": "0.8.9",
     "templateVersion": 2,
