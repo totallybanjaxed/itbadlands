@@ -47,7 +47,7 @@ async function Create() {
     let biography = `<strong>${age}</strong> years old. Previous career was as a ${formerProfession}.`;
     let actorData = {
         name: characterName,
-        background: `Former Profession: ${formerProfession}`,
+        background: formerProfession,
         biography: biography,
         hp: { value: hp, max: hp },
         dollars: dollars,
