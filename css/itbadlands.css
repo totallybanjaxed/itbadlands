@@ -460,10 +460,6 @@ body,
     margin-bottom: 1px;
 }
 
-.itbadlands h2.background {
-    border-bottom: 2px solid black;
-}
-
 .itbadlands nav.sheet-tabs.tabs {
     border: none;
 }

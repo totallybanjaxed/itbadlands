@@ -42,7 +42,12 @@
                 <input name="name" type="text" value="{{actor.name}}" placeholder="Name" />
             </h1>
             <h3 class="background">
-                <input name="data.background" type="text" value="Former Profession: {{data.data.background}}" placeholder="Former Profession:" />
+                <div class="flexrow">
+                    Former Profession:
+                </div>
+                <div class="flexrow">
+                    <input name="data.background" type="text" value="{{data.data.background}}" />
+                </div>
             </h3>
             <div class="">
                 <div class="grid grid-3col resource flexrow flex-group-center">
