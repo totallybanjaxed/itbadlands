@@ -2,7 +2,7 @@
     "name": "itbadlands",
     "title": "Into The Badlands",
     "description": "Into The Badlands for FoundryVTT",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "minimumCoreVersion": "0.8.6",
     "compatibleCoreVersion": "0.8.9",
     "templateVersion": 2,
@@ -56,6 +56,6 @@
     "primaryTokenAttribute": "hp",
     "license": "",
     "manifest": "https://raw.githubusercontent.com/totallybanjaxed/itbadlands/main/system.json",
-    "download": "https://github.com/totallybanjaxed/itbadlands/archive/refs/tags/v0.0.2.zip",
+    "download": "https://github.com/totallybanjaxed/itbadlands/archive/main.zip",
     "url": ""
 }
