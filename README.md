@@ -1,6 +1,6 @@
 # Into The Badlands for FoundryVTT!
 
-Implements basic character and item sheets for playing [Into The Badlands](https://IntoTheBadlandsrpg.com) by [Ian Devlin](https://rapscallion.games) in Foundry VTT. Into the Badlands is a Wild West rpg, drawing heavily on such great games as:
+Implements basic character and item sheets for playing [Into The Badlands](https://IntoTheBadlandsrpg.com) by Ian Devlin in Foundry VTT. Into the Badlands is a Wild West rpg, drawing heavily on such great games as:
 
 - Into the Odd & Electric Bastionland by Chris McDowell
 - Cairn by Yochai Gal.
